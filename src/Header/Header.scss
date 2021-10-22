@@ -1,0 +1,39 @@
+@import "../assets/styles/Vars.scss";
+
+.header-container{
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.header-logo{
+  padding-top: 30px;
+  height: 80px;
+}
+.header-buttons{
+  display: flex;
+  height: 80%;
+}
+.header-buttons_item{
+  height: 100%;
+  list-style-type:none ;
+}
+.header-buttons_item a{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+.header-buttons_item a:hover{
+  border-bottom: 5px solid $alert-red;
+}
+.header-buttons_item a:after{
+  color: $strong-black;
+}

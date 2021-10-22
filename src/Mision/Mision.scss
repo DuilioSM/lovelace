@@ -1,0 +1,58 @@
+@import "../assets/styles/Vars.scss";
+
+.mision-container{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  background-color: $off-white;
+  color: $strong-black;
+}
+.mision-container_card{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px ;
+  border-radius: 30px;
+  box-shadow: $shadow;
+  background-color: $cream-white;
+}
+.mision-left{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.mision-title{
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+  color: $strong-black;
+}
+.mision-subtitle{
+  font-size: 15px;
+  line-height: 25px;
+  padding-top: 10px;
+  color:$gray-text;
+}
+.mision-button{
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: $shadow;
+  background: $alert-red;
+}
+.mision-right{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.mision-image{
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: $shadow;
+}

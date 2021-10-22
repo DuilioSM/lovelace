@@ -1,0 +1,17 @@
+@import "../assets/styles/Vars.scss";
+.values-article{
+  height: 250px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: $strong-black;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 16%);
+}
+.values-title{
+  padding: 7px 0;
+}

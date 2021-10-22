@@ -1,0 +1,16 @@
+@import "../assets/styles/Vars.scss";
+.giphy-container{
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  height: 70vh;
+  background-image: url(../assets/images/giphy.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+.giphy-title{
+  color: $alert-red;
+}
