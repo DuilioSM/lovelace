@@ -19,12 +19,12 @@ function Header() {
       <ul className="header-buttons">
         <li className="header-buttons_item">
           <Link to='/'>
-            Home
+            Inicio
           </Link>
         </li>
         <li className="header-buttons_item">
           <Link to='/AboutUs'>
-            About Us
+            Sobre nosotros
           </Link>
         </li>
         <li className="header-buttons_item">
