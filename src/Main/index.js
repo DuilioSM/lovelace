@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import './Main.scss';
 import { TimelineLite } from 'gsap';
+import './Main.scss';
+
 
 function Main() {
   let t1 = new TimelineLite({ delay: 0.3 });

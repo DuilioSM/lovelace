@@ -9,10 +9,10 @@ gsap.registerPlugin(ScrollTrigger)
 function Mision() {
   useEffect(() => {
     gsap.from('.mision-container', {
-      duration: 3,
+      duration: 2,
       y: '100',
       opacity: 0,
-      ease: 'ease-in',
+      ease: 'ease',
       scrollTrigger: {
         trigger: '.mision-container_card',
         start: 'top 80%',

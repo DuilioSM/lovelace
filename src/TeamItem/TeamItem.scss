@@ -1,13 +1,43 @@
+@import "../assets/styles/Vars.scss";
 .team-article{
   display: flex;
-  height: 50vh;
-  border-radius: 20px;
-  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
 }
-.teamItem-left{
-  width: 20vw;
+.team-article__text{
+  display: flex;
+  align-items: center;
+  padding: 70px;
+  max-height: 80%;
+  border-radius: 60px;
+  box-shadow: $shadow;
+  background: $warm-black;
 }
-
 .teamItem-image{
-  max-height: 300px;
+  max-width: 400px;
+  max-height: 60vh;
+  border-radius: 50px;
+  box-shadow: $shadow;
+}
+.teamItem-right{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.teamItem-name{
+  font-size: 40px;
+}
+.teamItem-text{
+  padding-top: 20px;
+  font-size: 20px;
+}
+.teamItem-button{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: $shadow;
+  background: $alert-red;
 }

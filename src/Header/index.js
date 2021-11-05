@@ -27,6 +27,11 @@ function Header() {
             About Us
           </Link>
         </li>
+        <li className="header-buttons_item">
+          <Link to='/Clients'>
+            Clientes
+          </Link>
+        </li>
       </ul>
     </header>
   );

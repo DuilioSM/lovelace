@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import AboutUs from '../AboutUs';
+import Clients from '../Clients';
 import Home from '../Home'
 
 import './App.scss';
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path='/AboutUs' exact>
           <AboutUs/>
+        </Route>
+        <Route path='/Clients' exact>
+          <Clients />
         </Route>
       </Switch>
     </Router>
