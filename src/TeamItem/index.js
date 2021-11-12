@@ -1,7 +1,7 @@
 import React from 'react';
 import './TeamItem.scss';
 
-function TeamItem({ img, name, p, contact }) {
+function TeamItem({ img, name, p,stall, contact }) {
   return (
     <article className='team-article'>
       <div className='team-article__text'>
@@ -10,8 +10,9 @@ function TeamItem({ img, name, p, contact }) {
         </div>
         <div className='teamItem-right'>
           <h2 className='teamItem-name'>{name}</h2>
+          <h4 className='teamItem-stall'>{stall}</h4>
           <p className='teamItem-text'>{p}</p>
-          <a className='teamItem-button' href={contact}>Contacto</a>
+          <a className='teamItem-button' href={contact} target='_blank' rel="noreferrer" >Contacto</a>
         </div>
       </div>
     </article>

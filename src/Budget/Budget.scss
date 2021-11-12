@@ -1,0 +1,27 @@
+@import "../assets/styles/Vars.scss";
+
+.budget-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px 50px 50px;
+}
+.budget-img{
+  border-radius: 30px;
+  box-shadow: $shadow;
+  width: 40%;
+}
+.budget-title{
+  font-size: 43px;
+  font-weight: 350;
+  letter-spacing: 1px;
+  color: $off-white;
+}
+.budget-text{
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 25px;
+  color: $gray;
+  padding-right: 50px;
+}

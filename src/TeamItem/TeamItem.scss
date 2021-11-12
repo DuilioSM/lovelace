@@ -30,14 +30,29 @@
 .teamItem-name{
   font-size: 40px;
 }
+.teamItem-stall{
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 300;
+  color: $off-white;
+}
 .teamItem-text{
-  padding-top: 20px;
+  color: $gray;
+  padding-top: 3px;
+  margin-bottom: 20px;
+  font-weight: 150;
   font-size: 20px;
 }
 .teamItem-button{
-  margin-top: 20px;
   padding: 10px;
   border-radius: 5px;
   box-shadow: $shadow;
   background: $alert-red;
+  transition: all 0.8s ease-out;
+  border: 1.5px solid $alert-red;
+}
+.teamItem-button:hover{
+  background: $off-white;
+  box-shadow: $shadow;
+  color: $alert-red;
 }

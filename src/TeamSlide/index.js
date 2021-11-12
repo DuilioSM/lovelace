@@ -21,6 +21,7 @@ function TeamSlide() {
             img={card.img}
             name={card.name}
             p={card.p}
+            stall={card.stall}
             contact={card.contact}
             background={card.background}
           />

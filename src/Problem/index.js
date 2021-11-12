@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { TimelineLite } from 'gsap';
 import office from '../assets/images/office.jpg'
+import excel from '../assets/download/solucion-excel.xlsm';
+import packet from '../assets/download/solucion-pt.pkt';
 import './Problem.scss';
 
 function Problem() {
@@ -24,11 +26,11 @@ function Problem() {
         </p>
         <div className='problem-items'>
           <div className='problem-item'>
-            <h3 className='problem-item__title'>Solución Ofimatica</h3>
+            <a className='problem-item__title' href={excel} >Solución Ofimatica</a>
             <p className='problem-item__text'>Le brindamos al cliente una solución mediante el uso de hojas de cálculo, en la cual él puede calcular cuando es prudente realizar el envío de las mercancías a los clientes para así evitar la pérdida del producto, al igual que llevar un conteo del mismo</p>
           </div>
           <div className='problem-item'>
-            <h3 className='problem-item__title'>Redes LAN</h3>
+            <a className='problem-item__title' href={packet}>Redes LAN</a>
             <p className='problem-item__text'>Con el uso de la redes, le proporcionamos a Qualtia la posibilidad de administrar todos sus archivos mediante una nube de uso local, en la cual en lugar de realizar toda la documentación de manera física pueden usar programas de ofimática como word y estos mismos subirlos a la nube local </p>
           </div>
         </div>

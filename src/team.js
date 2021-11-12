@@ -13,29 +13,33 @@ export default [
   {
     img:brandon,
     name: 'Brandon Estrada',
-    p:'Experto en topologías lógicas en Cisco Packet Tracer',
+    p:'Creador de topologías lógicas en Cisco Packet Tracer',
+    stall: 'Desarrollador en seguridad informática',
     contact:'https://www.facebook.com/profile',
     background: brandonBackground
   },
   {
     img: diego,
     name: 'Diego Enríquez',
-    p: 'Experto en topologías físicas en Cisco Packet Tracer',
+    p: 'Creador en topologías físicas en Cisco Packet Tracer',
+    stall:'Desarrollador en Redes',
     contact: 'https://www.facebook.com/profile',
     background: diegoBackground
   },
   {
     img: duilio,
     name: 'Duilio Sotelo',
-    p: 'Experto en desarrollo web Front-end',
+    p: 'Programador en desarrollo web Front-end',
+    stall: 'Desarrollador en Frontend',
     contact: 'https://www.facebook.com/profile',
     background: duilioBackground
   },
   {
     img: kevin,
     name: 'Kevin Trujillo',
-    p: 'Experto en hojas de cálculo de excel',
+    p: 'Creador en hojas de cálculo de excel',
     contact: 'https://www.facebook.com/profile',
+    stall: 'Administrador',
     background: kevinBackground
   },
 ]

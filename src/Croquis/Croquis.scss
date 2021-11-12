@@ -1,0 +1,38 @@
+@import "../assets/styles/Vars.scss";
+
+.croquis-container{
+  display: flex;
+  padding: 10px 50px 50px 50px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.croquis-img{
+  width: 40%;
+  border-radius: 20px;
+  box-shadow: $shadow;
+}
+.croquis-info{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.croquis-title{
+  font-size: 43px;
+  font-weight: 350;
+  letter-spacing: 1px;
+  color: $off-white;
+}
+.croquis-text{
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+  line-height: 25px;
+  color: $gray;
+  padding-bottom: 20px;
+}
+.croquis-li{
+  padding-top: 5px;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 220;
+  color: $gray-text;
+}

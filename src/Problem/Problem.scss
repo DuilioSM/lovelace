@@ -2,7 +2,7 @@
 .problem-container{
   display: flex;
   align-items: center;
-
+  justify-content: center;
   background: $warm-black;
   padding: 0 50px;
   height: 100vh;
@@ -39,6 +39,31 @@
   font-size: 23px;
   line-height: 40px;
   border-bottom: 2px solid $alert-red;
+  transition: all 0.3s ease-in-out;
+}
+.problem-item__title:hover{
+  color: $off-white;
+  background: $alert-red;
+  padding: 5px;
+  border-radius: 5px;
+  border-bottom: none;
+  box-shadow: $shadow;
+}
+.problem-item__title:active{
+  color: $alert-red;
+  background: $off-white;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1.5px solid $alert-red;
+  box-shadow: $shadow;
+}
+.problem-item__title:visited{
+  color: $alert-red;
+  background: $off-white;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1.5px solid $alert-red;
+  box-shadow: $shadow;
 }
 .problem-item__text{
   padding-top: 5px;
